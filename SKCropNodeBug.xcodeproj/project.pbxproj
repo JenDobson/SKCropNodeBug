@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF482171A157402008B0745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF482161A157402008B0745 /* main.m */; };
+		BDF4821A1A157402008B0745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF482191A157402008B0745 /* AppDelegate.m */; };
+		BDF4821C1A157403008B0745 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF4821B1A157403008B0745 /* art.scnassets */; };
+		BDF4821F1A157403008B0745 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4821E1A157403008B0745 /* GameViewController.m */; };
+		BDF482221A157403008B0745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF482201A157403008B0745 /* Main.storyboard */; };
+		BDF482241A157403008B0745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF482231A157403008B0745 /* Images.xcassets */; };
+		BDF482271A157403008B0745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF482251A157403008B0745 /* LaunchScreen.xib */; };
+		BDF482331A157403008B0745 /* SKCropNodeBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF482321A157403008B0745 /* SKCropNodeBugTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF4822D1A157403008B0745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF482091A157402008B0745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF482101A157402008B0745;
+			remoteInfo = SKCropNodeBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF482111A157402008B0745 /* SKCropNodeBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCropNodeBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF482151A157402008B0745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF482161A157402008B0745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF482181A157402008B0745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDF482191A157402008B0745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDF4821B1A157403008B0745 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		BDF4821D1A157403008B0745 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BDF4821E1A157403008B0745 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BDF482211A157403008B0745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF482231A157403008B0745 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDF482261A157403008B0745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDF4822C1A157403008B0745 /* SKCropNodeBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKCropNodeBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF482311A157403008B0745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF482321A157403008B0745 /* SKCropNodeBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCropNodeBugTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF4820E1A157402008B0745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF482291A157403008B0745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF482081A157402008B0745 = {
+			isa = PBXGroup;
+			children = (
+				BDF482131A157402008B0745 /* SKCropNodeBug */,
+				BDF4822F1A157403008B0745 /* SKCropNodeBugTests */,
+				BDF482121A157402008B0745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF482121A157402008B0745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF482111A157402008B0745 /* SKCropNodeBug.app */,
+				BDF4822C1A157403008B0745 /* SKCropNodeBugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF482131A157402008B0745 /* SKCropNodeBug */ = {
+			isa = PBXGroup;
+			children = (
+				BDF482181A157402008B0745 /* AppDelegate.h */,
+				BDF482191A157402008B0745 /* AppDelegate.m */,
+				BDF4821B1A157403008B0745 /* art.scnassets */,
+				BDF4821D1A157403008B0745 /* GameViewController.h */,
+				BDF4821E1A157403008B0745 /* GameViewController.m */,
+				BDF482201A157403008B0745 /* Main.storyboard */,
+				BDF482231A157403008B0745 /* Images.xcassets */,
+				BDF482251A157403008B0745 /* LaunchScreen.xib */,
+				BDF482141A157402008B0745 /* Supporting Files */,
+			);
+			path = SKCropNodeBug;
+			sourceTree = "<group>";
+		};
+		BDF482141A157402008B0745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF482151A157402008B0745 /* Info.plist */,
+				BDF482161A157402008B0745 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF4822F1A157403008B0745 /* SKCropNodeBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF482321A157403008B0745 /* SKCropNodeBugTests.m */,
+				BDF482301A157403008B0745 /* Supporting Files */,
+			);
+			path = SKCropNodeBugTests;
+			sourceTree = "<group>";
+		};
+		BDF482301A157403008B0745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF482311A157403008B0745 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF482101A157402008B0745 /* SKCropNodeBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF482361A157403008B0745 /* Build configuration list for PBXNativeTarget "SKCropNodeBug" */;
+			buildPhases = (
+				BDF4820D1A157402008B0745 /* Sources */,
+				BDF4820E1A157402008B0745 /* Frameworks */,
+				BDF4820F1A157402008B0745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKCropNodeBug;
+			productName = SKCropNodeBug;
+			productReference = BDF482111A157402008B0745 /* SKCropNodeBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF4822B1A157403008B0745 /* SKCropNodeBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF482391A157403008B0745 /* Build configuration list for PBXNativeTarget "SKCropNodeBugTests" */;
+			buildPhases = (
+				BDF482281A157403008B0745 /* Sources */,
+				BDF482291A157403008B0745 /* Frameworks */,
+				BDF4822A1A157403008B0745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF4822E1A157403008B0745 /* PBXTargetDependency */,
+			);
+			name = SKCropNodeBugTests;
+			productName = SKCropNodeBugTests;
+			productReference = BDF4822C1A157403008B0745 /* SKCropNodeBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF482091A157402008B0745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jennifer Dobson";
+				TargetAttributes = {
+					BDF482101A157402008B0745 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BDF4822B1A157403008B0745 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BDF482101A157402008B0745;
+					};
+				};
+			};
+			buildConfigurationList = BDF4820C1A157402008B0745 /* Build configuration list for PBXProject "SKCropNodeBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF482081A157402008B0745;
+			productRefGroup = BDF482121A157402008B0745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF482101A157402008B0745 /* SKCropNodeBug */,
+				BDF4822B1A157403008B0745 /* SKCropNodeBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF4820F1A157402008B0745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF482271A157403008B0745 /* LaunchScreen.xib in Resources */,
+				BDF482241A157403008B0745 /* Images.xcassets in Resources */,
+				BDF4821C1A157403008B0745 /* art.scnassets in Resources */,
+				BDF482221A157403008B0745 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4822A1A157403008B0745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF4820D1A157402008B0745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4821A1A157402008B0745 /* AppDelegate.m in Sources */,
+				BDF4821F1A157403008B0745 /* GameViewController.m in Sources */,
+				BDF482171A157402008B0745 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF482281A157403008B0745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF482331A157403008B0745 /* SKCropNodeBugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF4822E1A157403008B0745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF482101A157402008B0745 /* SKCropNodeBug */;
+			targetProxy = BDF4822D1A157403008B0745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF482201A157403008B0745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF482211A157403008B0745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF482251A157403008B0745 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF482261A157403008B0745 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF482341A157403008B0745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BDF482351A157403008B0745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF482371A157403008B0745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKCropNodeBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDF482381A157403008B0745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKCropNodeBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDF4823A1A157403008B0745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKCropNodeBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKCropNodeBug.app/SKCropNodeBug";
+			};
+			name = Debug;
+		};
+		BDF4823B1A157403008B0745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKCropNodeBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKCropNodeBug.app/SKCropNodeBug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF4820C1A157402008B0745 /* Build configuration list for PBXProject "SKCropNodeBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF482341A157403008B0745 /* Debug */,
+				BDF482351A157403008B0745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF482361A157403008B0745 /* Build configuration list for PBXNativeTarget "SKCropNodeBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF482371A157403008B0745 /* Debug */,
+				BDF482381A157403008B0745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDF482391A157403008B0745 /* Build configuration list for PBXNativeTarget "SKCropNodeBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4823A1A157403008B0745 /* Debug */,
+				BDF4823B1A157403008B0745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF482091A157402008B0745 /* Project object */;
+}
