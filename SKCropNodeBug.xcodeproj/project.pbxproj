@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDB4EDAC1A157C3100DDF087 /* SKCropNodeUnderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB4EDAB1A157C3100DDF087 /* SKCropNodeUnderTest.m */; };
 		BDF482171A157402008B0745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF482161A157402008B0745 /* main.m */; };
 		BDF4821A1A157402008B0745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF482191A157402008B0745 /* AppDelegate.m */; };
 		BDF4821C1A157403008B0745 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF4821B1A157403008B0745 /* art.scnassets */; };
 		BDF4821F1A157403008B0745 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4821E1A157403008B0745 /* GameViewController.m */; };
-		BDF482221A157403008B0745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF482201A157403008B0745 /* Main.storyboard */; };
 		BDF482241A157403008B0745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF482231A157403008B0745 /* Images.xcassets */; };
-		BDF482271A157403008B0745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF482251A157403008B0745 /* LaunchScreen.xib */; };
 		BDF482331A157403008B0745 /* SKCropNodeBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF482321A157403008B0745 /* SKCropNodeBugTests.m */; };
+		BDF4823E1A157753008B0745 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4823D1A157753008B0745 /* MainScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDB4EDAA1A157C3000DDF087 /* SKCropNodeUnderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCropNodeUnderTest.h; sourceTree = "<group>"; };
+		BDB4EDAB1A157C3100DDF087 /* SKCropNodeUnderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCropNodeUnderTest.m; sourceTree = "<group>"; };
 		BDF482111A157402008B0745 /* SKCropNodeBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCropNodeBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF482151A157402008B0745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF482161A157402008B0745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,12 +38,12 @@
 		BDF4821B1A157403008B0745 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		BDF4821D1A157403008B0745 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		BDF4821E1A157403008B0745 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		BDF482211A157403008B0745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDF482231A157403008B0745 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BDF482261A157403008B0745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDF4822C1A157403008B0745 /* SKCropNodeBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKCropNodeBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF482311A157403008B0745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF482321A157403008B0745 /* SKCropNodeBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCropNodeBugTests.m; sourceTree = "<group>"; };
+		BDF4823C1A157753008B0745 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		BDF4823D1A157753008B0745 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +90,11 @@
 				BDF4821B1A157403008B0745 /* art.scnassets */,
 				BDF4821D1A157403008B0745 /* GameViewController.h */,
 				BDF4821E1A157403008B0745 /* GameViewController.m */,
-				BDF482201A157403008B0745 /* Main.storyboard */,
+				BDF4823C1A157753008B0745 /* MainScene.h */,
+				BDF4823D1A157753008B0745 /* MainScene.m */,
+				BDB4EDAA1A157C3000DDF087 /* SKCropNodeUnderTest.h */,
+				BDB4EDAB1A157C3100DDF087 /* SKCropNodeUnderTest.m */,
 				BDF482231A157403008B0745 /* Images.xcassets */,
-				BDF482251A157403008B0745 /* LaunchScreen.xib */,
 				BDF482141A157402008B0745 /* Supporting Files */,
 			);
 			path = SKCropNodeBug;
@@ -202,10 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF482271A157403008B0745 /* LaunchScreen.xib in Resources */,
 				BDF482241A157403008B0745 /* Images.xcassets in Resources */,
 				BDF4821C1A157403008B0745 /* art.scnassets in Resources */,
-				BDF482221A157403008B0745 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF4821A1A157402008B0745 /* AppDelegate.m in Sources */,
+				BDF4823E1A157753008B0745 /* MainScene.m in Sources */,
+				BDB4EDAC1A157C3100DDF087 /* SKCropNodeUnderTest.m in Sources */,
 				BDF4821F1A157403008B0745 /* GameViewController.m in Sources */,
 				BDF482171A157402008B0745 /* main.m in Sources */,
 			);
@@ -246,25 +250,6 @@
 			targetProxy = BDF4822D1A157403008B0745 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BDF482201A157403008B0745 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDF482211A157403008B0745 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BDF482251A157403008B0745 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDF482261A157403008B0745 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BDF482341A157403008B0745 /* Debug */ = {
@@ -350,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SKCropNodeBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SKCropNodeBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +405,7 @@
 				BDF482381A157403008B0745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDF482391A157403008B0745 /* Build configuration list for PBXNativeTarget "SKCropNodeBugTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +414,7 @@
 				BDF4823B1A157403008B0745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

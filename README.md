@@ -1,0 +1,1 @@
+This code demonstrates what I believe is a bug in SKCropNode.  The blue square at the center of the screen is composed of a 512x512 blue SKSpriteNode that is masked by a 256x256 SKSpriteNode.  (So what you see is only 256x256.).  However, if you touch anywhere in the 512x512 area that's covered by the underlying SKShapeNode, the scene responds.  To me, this is incorrect behavior.
